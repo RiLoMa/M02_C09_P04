@@ -1,0 +1,63 @@
+
+#Ignorar los siguente archivos en la carpeta Documentacion
+
+Documentacion/Altium/*.SchDoc
+Documentacion/Altium/__Previews/
+Documentacion/Altium/History/
+Documentacion/Altium/Free Documents.OutJob
+Documentacion/Generic Violet.ico
+desktop.ini
+
+
+
+
+# Ignorar los siguiente archivos en la carpeta Raptor
+
+Raptor/*.rap.backup*
+
+
+
+# Ignorar los archivos  deacuerdo con https://microchipdeveloper.com/faq:72
+
+#	Directory or File(s)		Commit?
+#	Project Directory
+#	Makefile			        Yes
+#	Source files			    Yes
+#	build directory			    No
+#	dist directory			    No
+
+#	nbproject directory
+#	configurations.xml		    Yes
+#	project.properties		    Yes
+#	project.xml			        Yes
+#	Makefile-*			        No
+#	Package-*			        No
+#	private directory		    No
+
+MyProject.X/build/
+MyProject.X/dist/
+MyProject.X/.generated_files/
+
+MyProject.X/*.d
+MyProject.X/*.pre
+MyProject.X/*.p1
+MyProject.X/*.lst
+MyProject.X/*.sym
+MyProject.X/*.obj
+MyProject.X/*.o
+MyProject.X/*.sdb
+MyProject.X/*.obj.dmp
+MyProject.X/html/
+MyProject.X/nbbuild/
+MyProject.X/nbdist/
+MyProject.X/nbactions.xml
+MyProject.X/nb-configuration.xml
+MyProject.X/funclist
+MyProject.X/disassembly/
+MyProject.X/*.map
+
+# Ignoring private Makefiles, to create them open the MPLAB IDE or use the C:\Program Files (x86)\Microchip\MPLABX\<VERSION>\mplab_ide\bin\prjMakefilesGenerator.bat script
+
+MyProject.X/nbproject/Makefile-*
+MyProject.X/nbproject/Package-*.bash
+MyProject.X/nbproject/private/
